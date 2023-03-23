@@ -9,9 +9,11 @@
 a{
     text-decoration: none;
 }
+
 body{
     font-family: sans-serif;
 }
+
 .header{
     width: 1140px;
     height: 70px;
@@ -27,6 +29,10 @@ body{
     line-height: 24px;
     color: #0A0A0A;
     margin: 0 20px;
+    transition: .4s;
+}
+.header a:hover{
+    color: red;
 }
 .header button{
     font-weight: 400;
@@ -38,6 +44,11 @@ body{
     border-radius: 32px;
     padding: 15px 32px;
     margin: 0 16px;
+    transition: .4s;
+}
+.header button:hover{
+    background: red;
+    color: #DBFAA8;
 }
 .hero{
     display: flex;
@@ -73,7 +84,13 @@ body{
     padding: 16px 62px;
     border: none;
     margin-bottom: 136px;
+    transition: .4s;
 }
+.hero-title button:hover{
+    color: #DBFAA8;
+    background: #0A0A0A;
+}
+
 #navbar{
     background: #0A0A0A;
 }
@@ -325,7 +342,14 @@ body{
     border-radius: 40px;
     padding: 16px 60px;
     margin: 40px 0;
+    color: #C6F572;
+    transition: .4s;
 }
+.scale-group button:hover{
+    background: red;
+    color: #DBFAA8;
+}
+
 footer{
     background: rgba(219, 250, 168, 1);
 

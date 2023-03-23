@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Money</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +14,10 @@
 
 <header>
   <div class="container">
-    <div class="header">
+    <div class="header" data-aos="fade-left"
+         data-aos-anchor="#example-anchor"
+         data-aos-offset="500"
+         data-aos-duration="500">
       <nav>
         <a href="#">How it works</a>
         <a href="#">Pricing</a>
@@ -25,7 +29,10 @@
 </header>
 <section id="hero">
     <div class="container">
-        <div class="hero">
+        <div class="hero" data-aos="fade-left"
+             data-aos-anchor="#example-anchor"
+             data-aos-offset="500"
+             data-aos-duration="500">
             <img src="./img/IMAGE.png" alt="img">
             <img src="./img/IMAGE2.png" alt="img">
         </div>
@@ -39,7 +46,7 @@
 </section>
 <section id="navbar">
     <div class="container">
-        <div class="navbar">
+        <div class="navbar" data-aos="zoom-out-up">
             <p>“Growing fast requires fast answers."</p>
             <h4>— Kasper, CEO Question Base</h4>
         </div>
@@ -48,7 +55,7 @@
 
 <section id="java">
     <div class="container">
-        <div class="java">
+        <div class="java" data-aos="zoom-out-up">
             <img src="./img/ass.png" alt="">
             <div class="java-title">
                 <h1>Instant answers inside Slack.</h1>
@@ -62,7 +69,7 @@
 
 <section id="assa">
     <div class="container">
-        <div class="assa">
+        <div class="assa" data-aos="zoom-out-up">
             <h1>Pricing</h1>
             <center><p>Question Base is currently in beta and is free for this time period. There will always be a 30 days no commitment trial
                 and we expect to announce pricing for teams of all sizes in 2023.</p></center>
@@ -71,7 +78,7 @@
 </section>
 <section id="pay">
     <div class="container">
-        <div class="pay">
+        <div class="pay" data-aos="zoom-out-up">
             <h1>“No tiers, no complexity.
                 <br>Pay only for what you use.”</h1>
             <p>— Yana, CSO Question Base</p>
@@ -80,7 +87,7 @@
 </section>
 <section id="most">
     <div class="container">
-        <div class="most">
+        <div class="most" data-aos="zoom-out-up">
             <div class="most-title">
                 <h2>Most team leads spend their time answering the same questions over and over. Not anymore.</h2>
                 <div><ion-icon name="globe-outline"></ion-icon></div>
@@ -106,7 +113,7 @@
 </section>
 <section id="scale">
     <div class="container">
-        <div class="scale">
+        <div class="scale" data-aos="zoom-out-up">
 
             <div class="scale-group">
                 <h1>Scale knowledge effortlessly.</h1>
@@ -161,5 +168,9 @@
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
